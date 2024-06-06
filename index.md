@@ -1,0 +1,24 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: 'lit-scaffold'
+  text: 'Lit组件开发模板'
+  tagline: 让开发Lit组件更流畅和简单
+  actions:
+    - theme: brand
+      text: 查看第一个组件
+      link: /test
+    - theme: brand
+      text: 设计思路
+      link: https://www.yuque.com/felbry/life/mzrli462kmzazvig
+
+features:
+  - title: 开发与样例并行
+    details: 每开发一个组件的特性，写样例的同时也调试验证了
+  - title: 自动构建API
+    details: 借助@custom-elements-manifest/analyzer和api-viewer-element，将API完整展示
+  - title: 支持按需和全量构建
+    details: 用户侧多种导入方式，自由选择，简单易用
+---
