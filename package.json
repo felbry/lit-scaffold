@@ -1,7 +1,6 @@
 {
   "name": "lit-scaffold",
   "version": "0.1.0",
-  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build --base /lit-scaffold/ --outDir ./docs",
@@ -9,12 +8,10 @@
     "comp:build": "vite build"
   },
   "exports": {
-    ".": "./dist/entry.js",
-    "./*": "./dist/*.ce.js"
+    ".": "./dist/entry.mjs",
+    "./*": "./dist/*.ce.mjs"
   },
-  "files": [
-    "dist/"
-  ],
+  "files": ["dist/"],
   "license": "ISC",
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.2",
